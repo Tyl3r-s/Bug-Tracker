@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 
 import { signOut } from '../../Controllers/Redux/authSlice';
-
+import './sidebar.css'
 
 export default () => {
 
@@ -11,7 +11,7 @@ export default () => {
     const { auth } = useSelector(state => state)
 
     function SignOut() {
-        dispatch(signOut);
+        dispatch(signOut());
     }
 
     return (

@@ -1,3 +1,32 @@
 .sidebar {
     position: fixed;
+    left: 0;
+    height: 95vh;
+    width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar ul {
+    display: grid;
+    grid-gap: 20px;
+    width: 100%;
+}
+
+.sidebar ul li {
+    width: 100%;
+    text-align: center;
+}
+
+.nav-link {
+    width: 100%;
+    text-align: center;
+}
+
+.logout {
+    width: 90%;
 }

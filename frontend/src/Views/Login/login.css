@@ -1,0 +1,20 @@
+.loginBg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.login-panel {
+    height: 50vh;
+    width: 50vw;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.login-panel h1 {
+    text-align: center;
+}
