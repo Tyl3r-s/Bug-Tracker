@@ -22,7 +22,7 @@ export default () => {
                 <l1><Link to='/viewbugs' className='nav-link'>View Bugs</Link></l1>
                 {auth.admin && <l1><Link to='/create' className='nav-link'>Create Bug</Link></l1> }
             </ul>
-            <button className="nav-link logout" onClick={SignOut}>logout</button>
+            <button className="logout" onClick={SignOut}>logout</button>
         </div>
     )
 }

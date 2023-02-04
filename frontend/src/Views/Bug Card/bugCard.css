@@ -1,0 +1,7 @@
+.bug-card {
+    text-align: center;
+    margin: 10px;
+    min-width: 275px;
+    min-height: 200px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

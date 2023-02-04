@@ -1,8 +1,7 @@
 .sidebar {
-    position: fixed;
     left: 0;
     height: 95vh;
-    width: 300px;
+    width: 25vw;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin: 10px;
     display: flex;
@@ -15,6 +14,7 @@
     display: grid;
     grid-gap: 20px;
     width: 100%;
+    justify-content: center;
 }
 
 .sidebar ul li {
@@ -25,6 +25,16 @@
 .nav-link {
     width: 100%;
     text-align: center;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    transition: all 0.3s;
+    background-color: aquamarine;
+}
+
+.brand {
+    font-size: 3rem;
 }
 
 .logout {

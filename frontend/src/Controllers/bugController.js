@@ -11,19 +11,19 @@ export function retrieveBugs() {
         version: "v2.0",
         assigned: "Tyler",
         creator: "Joe Blogs",
-        priority: "1",
+        priority: 1,
         time: "11:38",  
     }))
 
     data.push(new bugModel({
-        _id: 23456781,
+        _id: 23456789,
         name: "modal disappears",
         details: "info window closes after 3 seconds",
         steps: "open open and it will close itself",
         version: "v2.0",
         assigned: "Tyler",
         creator: "Joe Blogs",
-        priority: "2",
+        priority: 2,
         time: "12:38",  
     }))
 
