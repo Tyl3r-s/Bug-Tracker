@@ -1,10 +1,10 @@
 import React from 'react';
-import './App.css';
+import Login from './Views/Login/login.jsx';
 
 function App() {
   return (
     <>
-    
+    <Login />
     </>
   );
 }
