@@ -5,3 +5,8 @@
     min-height: 200px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+
+.bug-card:hover {
+    transition: all 0.3s;
+    transform: scale(1.05);
+}
