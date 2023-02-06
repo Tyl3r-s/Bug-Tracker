@@ -18,7 +18,6 @@ body {
     height: 100%;
     display: flex; 
     flex-wrap: wrap;
-    justify-content: space-between;
 }
 
 .page-container {
@@ -26,5 +25,5 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 65vw;
+    width: 77%;
 }

@@ -1,9 +1,9 @@
 .sidebar {
     left: 0;
     height: 95vh;
-    width: 25vw;
+    width: 21%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    margin: 10px;
+    margin: 1%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
