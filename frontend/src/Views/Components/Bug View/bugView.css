@@ -1,4 +1,5 @@
 .bug-view {
+    display: flex;
     position: absolute;
     width: 60vw;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -7,15 +8,36 @@
     padding: 20px;
 }
 
+.shortdeets {
+    width: 20%;
+}
+
+.longdeets {
+    width: 80%;
+}
+
+.longdeets .steps {
+    height: 30%;
+}
+
 .bug-view h1 {
     text-align: center;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .bug-view .close-btn {
     position: absolute;
     right: 0;
     top: 0; 
+    margin: 1%;
+}
+
+.bug-view .mark-complete {
+    position: absolute;
+    bottom: 0;
+    width: 20%;
+    left: 48%;
+    right: 32%;
     margin: 1%;
 }
