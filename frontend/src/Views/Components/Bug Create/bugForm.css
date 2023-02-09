@@ -7,8 +7,10 @@
     border-radius: 2px;
     justify-content: center;
     align-items: center;
+    position: absolute;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding: 20px;
+    z-index: 9;
 }
 
 .bug-create h1 {
