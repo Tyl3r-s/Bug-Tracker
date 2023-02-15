@@ -46,7 +46,7 @@ export default (props) => {
 
             <button onClick={() => { dispatch(markComplete()) }} className="mark-complete">mark as resolved</button>
         </div>
-        {displayEdit && <EditBug title="Edit Bug" bug={bug} />}
+        {displayEdit && <EditBug title="Edit Bug" bug={bug} close={editClicked}/>}
         </>
     )
 }

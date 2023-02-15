@@ -3,8 +3,10 @@ import Login from './Views/Login/login.jsx';
 import { useSelector } from 'react-redux';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Sidebar from './Views/Sidebar/sidebar.jsx';
+import dashboard from './Views/Pages/Dashboard/dashboard.jsx';
 import ViewBugPage from './Views/Pages/viewBugs';
 import CreateBug from './Views/Components/Bug Create/bugForm';
+import Dashboard from './Views/Pages/Dashboard/dashboard.jsx';
 
 function App() {
   const { auth } = useSelector(state => state)
@@ -14,6 +16,7 @@ function App() {
         <>
           <Sidebar />
           <Routes>
+            <Route path="/" element={<Dashboard />} />
             <Route path="/viewbugs" element={<ViewBugPage />} />
             <Route path='/create' element={<div className='page-container'><CreateBug /></div>} />
           </Routes>

@@ -13,6 +13,7 @@ export default (props) => {
     }
     return (
         <div className="bug-create">
+            <button className="close-btn" onClick={props.close}>x</button>
             <h1>Create Bug</h1>
             <form>
                 <label>Name:</label>
