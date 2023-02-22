@@ -7,7 +7,7 @@ import Card from '../../Components/Dashboard/card.jsx';
 export default () => {
     const dispatch = useDispatch();
     const bugs = useSelector(state => state.bugs);
-    const browserHistory = useNavigate()
+    let browserHistory = useNavigate();
     let highCount = 0
     let midCount = 0
     let lowCount = 0
