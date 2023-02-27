@@ -10,7 +10,7 @@ app.use(express.urlencoded({extended: true}));
 app.use(cookieParser());
 app.use(cors());
 
-app.use('/auth', require('./Controller/Routes/auth'))
+// app.use('/auth', require('./Controller/Routes/auth'))
 
 app.listen(PORT, () => {
     console.log('listening on ' + PORT)
