@@ -7,12 +7,7 @@ const entrySchema = new Schema({
         type: String,
         required: true
     },
-    entryText: {
-        type: String,
-        required: true,
-        minlength: 10
-    },
-    email: {
+    bugDesc: {
         type: String,
         required: true
     },
@@ -21,7 +16,7 @@ const entrySchema = new Schema({
         default: Date.now,
         get: createdAtVal => dateFormat(createdAtVal)
     },
-    moodRating: {
+    severity: {
         type: String,
         required: true
     }
