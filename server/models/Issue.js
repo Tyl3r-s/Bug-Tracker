@@ -7,7 +7,11 @@ const entrySchema = new Schema({
         type: String,
         required: true
     },
-    bugDesc: {
+    entryText: {
+        type: String,
+        required: true
+    },
+    email: {
         type: String,
         required: true
     },

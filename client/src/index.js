@@ -1,31 +1,13 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import { Provider } from 'react-redux';
-import { configureStore, combineReducers } from '@reduxjs/toolkit';
+import ReactDOM from 'react-dom';
+// import { Provider } from 'react-redux'
+import './assets/css/index.css';
+import './assets/css/Home.css'
 import App from './App';
 
-// reducers 
+ReactDOM.render(
 
-import authReducer from './Controllers/Redux/authSlice';
-import bugReducer from './Controllers/Redux/bugSlice';
-import userReducer from './Controllers/Redux/userSlice';
+    <App />,
 
-// redux configure
-const reducer = combineReducers({
-    auth: authReducer,
-    bugs: bugReducer,
-    user: userReducer
-})
-
-const store = configureStore({
-    reducer
-})
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-    <Provider store={store}>
-    <App />
-    </Provider>
+  document.getElementById('root')
 );
-

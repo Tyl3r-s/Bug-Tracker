@@ -1,0 +1,9 @@
+.LandingContainer {
+    width: 100vw;
+    height: 100vh;
+}
+
+.LandingLogo {
+    background-size: cover;
+    background-position: center;
+}
